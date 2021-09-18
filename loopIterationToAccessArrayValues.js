@@ -1,0 +1,26 @@
+var ourArray = [9, 10, 11, 12];
+
+var ourTotal = 0;
+
+for(var i = 0; i < ourArray.length; i++)
+{
+    ourTotal += ourArray[i];
+}
+
+console.log(ourTotal);
+
+function multiplyAll(arr)
+{
+    var product = 1;
+    for(var i = 0; i < arr.length; i++)
+    {
+        for(var j = 0; j < arr[i].length; j++)
+        {
+            product *= arr[i][j];
+        }
+    }
+    return product;
+}
+
+var product = multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+console.log(product);

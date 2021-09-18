@@ -1,4 +1,3 @@
-<script>
 function noArgNoReturn()
 {
     console.log("hey, you");
@@ -75,4 +74,3 @@ function change(num)
 }
 changed = change(2);
 console.log(changed);
-</script>

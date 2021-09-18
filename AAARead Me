@@ -1,0 +1,23 @@
+-install Live Server => open with Live server
+
+-script can be placed in head or body
+-ideally end of body
+Reason: browser execute html top to bottom
+        JS takes time to parse and execute
+        rendering takes some time
+        bad user experience
+
+        mostly JS code deal with html component.
+        By having it in the end of the body, it's ensured
+        all elements are shown before doing something
+        on them
+
+can run js file in node also: node index.js
+
+no two types of number: only number (no float, no integer)
+
+undefined is a primitive type and a fixed value also
+
+different types of object can be saved in arrays
+
+array's dimension is dynamic

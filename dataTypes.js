@@ -1,4 +1,3 @@
-<script>
 /*
 undefined, null, boolean, string, symbol, number and object
  */
@@ -17,4 +16,3 @@ console.log(ourName);
 const pi = 3.14;
 
 console.log(pi);
-</script>

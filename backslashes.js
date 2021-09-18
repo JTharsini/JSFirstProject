@@ -1,4 +1,3 @@
-<script>
 /**
 CODE OUTPUT
 
@@ -20,4 +19,3 @@ console.log("She is bad\r");
 console.log("It is too\t good");
 console.log("why use\b why?");
 console.log("form feed\f form");
-</script>
